@@ -55,12 +55,13 @@ document.querySelector("#volumeSlider").addEventListener("change", function() {
 });
 
 document.querySelector("#old").addEventListener("click", function() {
-    // video.classList.toggle("oldTime");
-    video.className = "oldTime";
+    video.classList.toggle("oldTime");
+    // video.className = "oldTime";
 });
 
 document.querySelector("#original").addEventListener("click", function() {
-    video.className = "original";
+    // video.className = "original";
+    video.classList.toggle("oldTime");
 });
 
 
